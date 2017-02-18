@@ -1,0 +1,260 @@
+body{
+       animation-duration:2.4s;  
+       animation-name:c-fade-in;
+       box-sizing:border-box;
+       
+}
+
+
+.navbar{
+    font-family:nunito;
+    font-weight:bold;
+    
+}
+
+
+#logo{
+    font-size:23px;
+    color:#fff;
+    margin-top:5px;
+    display:block;
+    margin-left:-20px;
+    text-align:center;
+
+    
+}
+
+
+.nav a:hover{
+   
+         background:transparent;
+         border-bottom: 4px solid rgba(0, 228, 251, 0.8); 
+   
+}
+
+.nav a{
+         transition: 0.7s ease;
+         border-bottom: 4px solid  transparent;
+     
+}
+
+
+#white1{color:#fff;}
+#white2{color:#fff;}
+#white3{color:#fff;}
+#white4{color:#fff;}
+
+#active2{
+         color:#fff;
+         border-bottom: 4px solid rgba(0, 228, 251, 0.8); 
+}
+
+.nav{
+    top:10px;
+    position:relative;
+    font-size:15px;
+ 
+}
+
+.nav i{
+    font-size:22px;
+    text-shadow: 2px 2px 2px #333;
+}
+
+.brand-name{
+    color:#fff;
+    text-shadow: 2px 2px 2px #333;
+}
+
+#sobre-mi{
+
+
+    background:url('../img/develop3.jpg');
+    background-attachment:fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+
+   
+   
+}
+
+.ampliador{
+    height:230px;
+}
+
+.header-page h2{
+     border-bottom: 4px solid rgba(0, 228, 251, 0.6); 
+     padding:15px;
+     text-align:center;
+     color:#fff;
+     font-family:nunito;
+     font-weight:bold;
+     font-size:25px;
+     width:150px;
+     margin:auto;
+   
+} 
+
+.perfil{
+    margin-top:50px;
+
+}
+
+.hi{
+     font-family:nunito;
+     color:#fff;
+     font-weight:bold;
+     font-size:20px;
+}
+
+
+ .descripcion{
+    background:#f2f2f2;
+    font-family:nunito;
+    margin-top:70px;
+    /*word-break: break-all;*/
+    box-shadow:0px 0px 10px black;
+    word-wrap: break-word;
+    padding:20px;
+    margin-left:auto;
+
+
+  
+}
+
+
+.image-separator{
+    background:url('../img/develop4.jpg');
+    height:550px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+#servicios{
+    height:800px;
+    background:#fff;
+}
+
+.panel-personalizado{
+    margin-top:80px;
+    padding:40px;
+    font-family:nunito;
+    transition: 0.6s ease;
+}
+
+.panel-personalizado:hover{
+     
+     -moz-transform: scale(1.1);
+     -webkit-transform: scale(1.1);
+     transform: scale(1.1);
+     transition: 0.6s ease;
+     background:#f2f2f2;
+    
+}
+
+.footer{
+    background:#f2f2f2;
+    height:150px;
+}
+
+
+/*Effects*/
+
+@keyframes c-fade-in {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+  }
+}
+
+.come-in {
+  transform: translateX(300px);
+  animation: come-in 0.8s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s;
+}
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to { transform: translateY(0); }
+}
+
+
+/*HEADROOM
+
+.headroom{
+
+   -webkit-transition: transform .3s ease;
+   -moz-transition: transform .3s ease;
+   transition: transform .3s ease;
+
+}
+
+
+.headroom--pinned{
+
+ transform: translateY(0%);  
+  
+  }
+
+
+
+.headroom--unpinned{
+
+transform: translateY(-100%); 
+
+
+}
+  */
+
+@media screen and (max-width:245px){
+    .brand-name{
+        font-size:13px;
+    }
+}
+
+
+@media screen and (max-width:991px){
+    .nav{
+        top:0;
+    }
+    .nav a{
+        height:45px;
+        border-bottom:2px solid transparent;
+    }
+    .nav a:hover{
+          border-bottom:2px solid rgba(0, 228, 251, 0.8); 
+    }
+    #active2{
+         border-bottom:2px solid rgba(0, 228, 251, 0.8); 
+    }
+
+    .panel-personalizado{
+          padding:0;
+    }
+    
+}
+
+@media screen and (max-width:767px){
+
+ 
+    .nav a:hover{
+        border-bottom:1px  solid rgba(0, 228, 251, 0.8); 
+      
+    }
+
+ 
+}
+
