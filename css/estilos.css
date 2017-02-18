@@ -2,7 +2,7 @@ body{
        animation-duration:2.4s;  
        animation-name:c-fade-in;
        box-sizing:border-box;
-       
+ 
 }
 
 
@@ -135,8 +135,13 @@ body{
 
 
 #servicios{
-    height:800px;
+  
     background:#fff;
+}
+
+#portafolio{
+    background:#fff;
+    height:500px;
 }
 
 .panel-personalizado{
@@ -156,10 +161,20 @@ body{
     
 }
 
+#portafolio{
+background:#fff;
+height:2500px;
+}
+
+#contacto{
+   
+}
+
 .footer{
     background:#f2f2f2;
-    height:150px;
+    height:200px;
 }
+
 
 
 /*Effects*/
@@ -254,7 +269,17 @@ transform: translateY(-100%);
         border-bottom:1px  solid rgba(0, 228, 251, 0.8); 
       
     }
+     
+     #sobre-mi{
+         background-attachment:initial;
+     }
+     .image-separator{
+         background-attachment:initial;
+     }
 
- 
+     .panel-personalizado:hover{
+          transform:none;
+    } 
+
 }
 
