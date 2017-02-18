@@ -1,6 +1,6 @@
 body{
-       animation-duration:2.4s;  
-       animation-name:c-fade-in;
+       /*animation-duration:2.4s;  
+       animation-name:c-fade-in;*/
        box-sizing:border-box;
  
 }
@@ -27,15 +27,9 @@ body{
 
 .nav a:hover{
    
-         background:transparent;
+  
          border-bottom: 4px solid rgba(0, 228, 251, 0.8); 
-   
-}
-
-.nav a{
-         transition: 0.7s ease;
-         border-bottom: 4px solid  transparent;
-     
+        
 }
 
 
@@ -45,8 +39,7 @@ body{
 #white4{color:#fff;}
 
 #active2{
-         color:#fff;
-         border-bottom: 4px solid rgba(0, 228, 251, 0.8); 
+        color:#fff;
 }
 
 .nav{
@@ -55,6 +48,8 @@ body{
     font-size:15px;
  
 }
+
+
 
 .nav i{
     font-size:22px;
@@ -158,21 +153,44 @@ body{
      transform: scale(1.1);
      transition: 0.6s ease;
      background:#f2f2f2;
+     /*border-top-color:rgb(32,33,33);
+     border-bottom-color: rgb(32,33,33);
+     border-right-color: rgb(32,33,33);
+     border-left-color: rgb(32,33,33);*/
+   
     
 }
 
 #portafolio{
-background:#fff;
-height:2500px;
+background:lightseagreen;
+height:100%;
 }
 
-#contacto{
+.active {
+    border-bottom: 4px solid rgba(0, 228, 251, 0.8); 
+  
    
+}
+
+
+#contacto{
+background:lightcyan;
+height:100%;
 }
 
 .footer{
     background:#f2f2f2;
     height:200px;
+  
+}
+
+.footer p{
+    margin-top:45px;
+}
+
+.footer li a i{
+    font-size:25px;
+    margin-top:30px;
 }
 
 
@@ -189,6 +207,8 @@ height:2500px;
     -webkit-transform: translateY(0);
   }
 }
+
+
 
 .come-in {
   transform: translateX(300px);
@@ -247,14 +267,9 @@ transform: translateY(-100%);
     }
     .nav a{
         height:45px;
-        border-bottom:2px solid transparent;
+        
     }
-    .nav a:hover{
-          border-bottom:2px solid rgba(0, 228, 251, 0.8); 
-    }
-    #active2{
-         border-bottom:2px solid rgba(0, 228, 251, 0.8); 
-    }
+   
 
     .panel-personalizado{
           padding:0;
@@ -263,23 +278,30 @@ transform: translateY(-100%);
 }
 
 @media screen and (max-width:767px){
-
+     .nav a{
+      
+        border-bottom:none;
+     }
  
     .nav a:hover{
-        border-bottom:1px  solid rgba(0, 228, 251, 0.8); 
-      
+        
+       border-bottom:none;
+   
     }
      
      #sobre-mi{
          background-attachment:initial;
      }
-     .image-separator{
-         background-attachment:initial;
-     }
+    
 
      .panel-personalizado:hover{
           transform:none;
     } 
+
+    body{
+            overflow-x:hidden;
+      
+    }
 
 }
 

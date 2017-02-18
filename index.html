@@ -50,19 +50,19 @@
                          <span class="icon-bar"></span>
                          <span class="icon-bar"></span>
                      </button>
-                     <a data-scroll href="#home" style="text-decoration:none;"><i id="logo" class="fa fa-code hidden-xs hidden-sm" aria-hidden="true"></i></a>
-                     <a data-scroll href="#home" class="navbar-brand"><p class="brand-name">Ricardo Rodriguez</p></a>
+                     <a  data-scroll href="#home" class="code" style="text-decoration:none;"><i id="logo" class="fa fa-code  hidden-xs hidden-sm" aria-hidden="true"></i></a>
+                     <a  data-scroll href="#home" class="navbar-brand"><p class="brand-name ">Ricardo Rodriguez</p></a>
                  </div>
                  
                  <!--Menu -->
               
                   <div class="collapse navbar-collapse" id="navegacion-rr">
                      <ul class="nav navbar-nav navbar-right">
-                      <li><a data-scroll id="active2" href="#home"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a></li>
-                      <li><a data-scroll id="white1" href="#sobre-mi"><i class="fa fa-user" aria-hidden="true"></i> Sobre Mi</a></li>
-                      <li><a data-scroll id="white2" href="#servicios"><i class="fa fa-cog" aria-hidden="true"></i> Servicios</a></li>
-                      <li><a data-scroll id="white3" href="#portafolio"><i class="fa fa-briefcase" aria-hidden="true"></i> Portafolio</a></li>
-                      <li><a data-scroll id="white4" href="#contacto"><i class="fa fa-envelope" aria-hidden="true"></i> Contacto</a></li>
+                      <li><a id="active2" class="active" href="#home"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a></li>
+                      <li><a id="white1" href="#sobre-mi"><i class="fa fa-user" aria-hidden="true"></i> Sobre Mi</a></li>
+                      <li><a id="white2" href="#servicios"><i class="fa fa-cog" aria-hidden="true"></i> Servicios</a></li>
+                      <li><a id="white3" href="#portafolio"><i class="fa fa-briefcase" aria-hidden="true"></i> Portafolio</a></li>
+                      <li><a id="white4" href="#contacto"><i class="fa fa-envelope" aria-hidden="true"></i> Contacto</a></li>
                      </ul>            
                   </div>
              </div>
@@ -100,7 +100,7 @@
                             gusto ejercer. </p>
                             <p>Soy una persona <b>proactiva , responsable y comprometida </b>, me gusta estar aprendiendo cosas nuevas todo el tiempo y siempre
                             que me propongo algo de alguna forma lo logro.</p>
-  						   <footer>Ricardo Rodriguez.</footer>
+  						   <footer><span class="label label-default">Leer mas...</span></footer>
   					</blockquote>
   				</div>
   			</div><!-- End row -->
@@ -108,7 +108,7 @@
      	</div><!--End Container-->
     </section>
     
-    <div class="image-separator"></div>
+    <!-- <div class="image-separator"></div> -->
 
     <section id="servicios">
         <div class="container">
@@ -122,7 +122,8 @@
   							<span><img class="img-responsive center-block" src="img/design.png" alt=""></span>
                               <h4><b>Web Design</b></h4>
   							<p>Nam velit est, tempor vel posuere et, auctor a lectus. Aenean gravida, est accumsan dictum rhoncus, lectus mi suscipit lacus, suscipit accumsan augue tellus vitae dolor. Morbi in euismod dui</p>
-  						</div>
+  						      <button class="btn btn-primary">Leer Mas</button>
+                          </div>
   					</div>
                </div>
                <div class="col-md-4">
@@ -131,7 +132,8 @@
   							<span><img class="img-responsive center-block" src="img/code.png" alt=""></span>
                               <h4><b>Web Development</b></h4>
   							<p>Nam velit est, tempor vel posuere et, auctor a lectus. Aenean gravida, est accumsan dictum rhoncus, lectus mi suscipit lacus, suscipit accumsan augue tellus vitae dolor. Morbi in euismod dui</p>
-  						</div>
+  						    <button class="btn btn-primary">Leer Mas</button>
+                          </div>
   					</div>
                </div>
                <div class="col-md-4">
@@ -140,11 +142,12 @@
   						      <span><img class="img-responsive center-block" src="img/responsive.png" alt=""></span>
                               <h4><b>Reponsive Design</b></h4>
   							<p>Nam velit est, tempor vel posuere et, auctor a lectus. Aenean gravida, est accumsan dictum rhoncus, lectus mi suscipit lacus, suscipit accumsan augue tellus vitae dolor. Morbi in euismod dui</p>
-  						</div>
+  						    <button class="btn btn-primary">Leer Mas</button>
+                          </div>
   					</div>
                </div>
             </div><!--END ROW-->
-             <div class="ampliador"></div>
+           <div class="ampliador"></div>
         </div>
     </section>
 
@@ -275,9 +278,11 @@
         </div>
     </section>
 
- <!-- <section id="portafolio" class="text-center">
- 
-          <h1>Portafolio</h1>
+     <section id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                     <h1>Contacto</h1>
           
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid 
               fugit optio earum consequuntur. Unde, praesentium delectus consequatur 
@@ -395,16 +400,20 @@
               fugit optio earum consequuntur. Unde, praesentium delectus consequatur 
               est perferendis necessitatibus doloremque eius aperiam placeat velit, seq
               ui incidunt. Id reprehenderit, sed!</p>
-       </section>   -->
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer class="footer">
       <div class="container text-center">
+             <p>&copy; 2017 Web Page Ricardo Rodriguez , Todos los Derechos Reservados.</p>
        <ul class="list-inline">
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Facebook</a></li>
-          <li><a href="#">YouTube</a></li>
+          <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i> </a></li>
+          <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
         </ul>
-        <p>&copy; 2017 Web Page Ricardo Rodriguez , Todos los Derechos Reservados.</p>
+     
         </div>
       </footer> 
 </div>
