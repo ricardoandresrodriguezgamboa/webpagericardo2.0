@@ -118,6 +118,8 @@ body{
 }
 
 
+
+
 .image-separator{
     background:url('../img/develop4.jpg');
     height:550px;
@@ -303,8 +305,14 @@ transform: translateY(-100%);
      #sobre-mi{
          background-attachment:initial;
      }
-    
 
+     #portafolio{
+      
+          background:url('../img/black.jpg');
+          
+        
+     }
+    
      .panel-personalizado:hover{
           transform:none;
     } 
