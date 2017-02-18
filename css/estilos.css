@@ -135,7 +135,7 @@ body{
 }
 
 #portafolio{
-    background:#fff;
+    background:#f2f2f2;
     height:500px;
 }
 
@@ -162,7 +162,9 @@ body{
 }
 
 #portafolio{
-background:lightseagreen;
+background:url('../img/web.jpg');
+background-size:cover;
+background-attachment:fixed;
 height:100%;
 }
 

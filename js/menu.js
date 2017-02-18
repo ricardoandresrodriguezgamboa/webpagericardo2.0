@@ -56,7 +56,19 @@ $(function(){
 });
 
 
+
+
 $(document).ready(function () {
+    
+    $(window).on('resize',function(){
+     
+          if($(this).width() < 767){
+                
+                 $('.elemento').attr('data-scroll');
+   
+          }
+
+
     $(document).on("scroll", onScroll);
     
     //smoothscroll
