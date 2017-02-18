@@ -4607,7 +4607,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 @media screen and (max-width:797px){
 .navbar-inverse {
 
-  background:rgba(0, 0, 9, 0.9);
+  background:rgba(0, 0, 9, 0.7);
 }
 
 }
