@@ -1,6 +1,8 @@
 $(function(){
      
-        
+          
+  
+
        /* var header = document.getElementById('header');
         
         var headroom  = new Headroom(header);
@@ -57,16 +59,23 @@ $(function(){
 
 
 
-
 $(document).ready(function () {
-    
-    $(window).on('resize',function(){
+     
+       $(window).on('resize',function(){
      
           if($(this).width() < 767){
                 
                  $('.elemento').attr('data-scroll');
+            
    
-          }
+  }else{
+ 
+    $('.elemento').removeAttr('data-scroll');
+
+  }
+  
+  });
+  
 
 
     $(document).on("scroll", onScroll);
@@ -86,7 +95,7 @@ $(document).ready(function () {
         $target = $(target);
         $('html, body').stop().animate({
             'scrollTop': $target.offset().top+2
-        }, 2000, 'swing', function () {
+        }, 1500, 'swing', function () {
             window.location.hash = target;
             $(document).on("scroll", onScroll);
         });
