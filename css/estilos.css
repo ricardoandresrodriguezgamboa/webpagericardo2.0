@@ -119,6 +119,7 @@ body{
      font-size:25px;
      width:150px;
      margin:auto;
+    
    
 } 
 
@@ -184,6 +185,7 @@ body{
      -webkit-transform: scale(1.1);
      transform: scale(1.1);
      transition: 0.5s ease;
+     box-shadow:0px 0px 2px grey;
      background:#f2f2f2;
 
      
@@ -223,8 +225,21 @@ height:100%;
 
 
 #contacto{
-background:lightcyan;
+background:url('../img/develop5.jpg');
+background-size:cover;
 height:100%;
+}
+
+
+
+ .panel-form{
+     margin-top:25px;
+     opacity:0.9;    
+     font-family:nunito;
+  }
+ 
+#comentario{
+    resize:none;
 }
 
 .footer{
@@ -246,7 +261,7 @@ height:100%;
 
 .divisor-footer{
     background:#FA6E00;
-    height:50px;
+    height:40px;
 }
 
 .form-suscribe{
@@ -358,6 +373,10 @@ transform: translateY(-100%);
           background:url('../img/black.jpg');
           
         
+     }
+
+     #contacto{
+         background:#f2f2f2;
      }
     
      .panel-personalizado:hover{
