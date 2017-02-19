@@ -6,11 +6,41 @@ body{
 }
 
 
+.header-home{
+    margin-top:250px;
+    color:#fff;
+
+    text-align:center;
+    font-size:60px;
+    font-family: 'Caveat Brush';
+}
+
+.header-home i{
+    font-size:33px;
+    background:#222;
+    border-radius:50%;
+    height:60px;
+    width:60px;
+    text-align:center;
+    padding:12px;
+}
+
+.header-home i:hover{
+
+    background:#333;
+    cursor:pointer;
+    transition:all 0.3s ease;
+ 
+}
+
+
 .navbar{
     font-family:nunito;
     font-weight:bold;
     
 }
+
+
 
 
 #logo{
@@ -27,7 +57,6 @@ body{
 
 .nav a:hover{
    
-  
          border-bottom: 4px solid rgba(0, 228, 251, 0.8); 
         
 }
@@ -141,7 +170,9 @@ body{
     margin-top:80px;
     padding:40px;
     font-family:nunito;
-    transition: 0.6s ease;
+    transition: 0.5s ease;
+    
+    
 }
 
 .panel-personalizado:hover{
@@ -149,8 +180,10 @@ body{
      -moz-transform: scale(1.1);
      -webkit-transform: scale(1.1);
      transform: scale(1.1);
-     transition: 0.6s ease;
+     transition: 0.5s ease;
      background:#f2f2f2;
+
+     
      /*border-top-color:rgb(32,33,33);
      border-bottom-color: rgb(32,33,33);
      border-right-color: rgb(32,33,33);
@@ -192,18 +225,29 @@ height:100%;
 }
 
 .footer{
-    background:#f2f2f2;
-    height:200px;
-  
+    background:#222;
+    height:100%;
+    color:white;
 }
 
 .footer p{
-    margin-top:45px;
+    margin-top:65px;
+
 }
 
 .footer li a i{
     font-size:25px;
     margin-top:30px;
+    color:white;
+}
+
+.divisor-footer{
+    background:#FA6E00;
+    height:50px;
+}
+
+.form-suscribe{
+    margin-top:60px;
 }
 
 
