@@ -302,7 +302,7 @@ height:100%;
 }
 
 
-/*HEADROOM
+
 
 .headroom{
 
@@ -327,7 +327,7 @@ transform: translateY(-100%);
 
 
 }
-  */
+  
 
 @media screen and (max-width:245px){
     .brand-name{
@@ -396,6 +396,10 @@ transform: translateY(-100%);
             overflow-x:hidden;
       
     }
+
+         .headroom{transition:none;}
+         .headroom--pinned{transform:none;}
+         .headroom--unpinned{transform:none;}
 
 }
 
