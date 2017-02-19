@@ -7,13 +7,16 @@ body{
 
 
 .header-home{
-    margin-top:250px;
+  /* margin-top:230px;*/
     color:#fff;
-
+    text-shadow:3px 3px 3px black;
     text-align:center;
     font-size:60px;
-    font-family: 'Caveat Brush';
+    font-family: 'Yellowtail', cursive;
+    
 }
+
+
 
 .header-home i{
     font-size:33px;
