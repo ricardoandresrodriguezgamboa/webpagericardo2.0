@@ -261,7 +261,13 @@ height:100%;
 
 .divisor-footer{
     background:#FA6E00;
-    height:40px;
+    height:50px;
+}
+
+
+ .whatsapp{
+ margin-top:50px;
+ font-size:15px;
 }
 
 .form-suscribe{
