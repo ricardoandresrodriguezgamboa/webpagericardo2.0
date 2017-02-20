@@ -56,13 +56,33 @@ body{
 
     
 }
+.nav{
+    top:10px;
+    position:relative;
+    font-size:15px;
 
+   
+ 
+}
+
+.nav a[class="elemento"]{
+     transition:all 0.7s ease;
+     border-bottom: 4px solid transparent;
+}
 
 .nav a:hover{
-   
-         border-bottom: 4px solid rgba(0, 228, 251, 0.8); 
+         
+    border-bottom: 4px solid rgba(0, 228, 251, 0.8); 
+        
         
 }
+
+.active {
+    
+    border-bottom: 4px solid rgba(0, 228, 251, 0.8); 
+
+}
+
 
 
 #white1{color:#fff;}
@@ -74,12 +94,7 @@ body{
         color:#fff;
 }
 
-.nav{
-    top:10px;
-    position:relative;
-    font-size:15px;
- 
-}
+
 
 
 
@@ -204,11 +219,7 @@ background-attachment:fixed;
 height:100%;
 }
 
-.active {
-    border-bottom: 4px solid rgba(0, 228, 251, 0.8); 
-  
-   
-}
+
 
 #portafolio .thumbnail{
     margin-top:90px;
