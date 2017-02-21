@@ -3122,6 +3122,21 @@ fieldset[disabled] .btn-default.focus {
   color: #fff;
   background-color: #333;
 }
+
+.btn-dark{
+  color:#fff;
+  background-color: #222;
+  border-color: #333;
+}
+
+.btn-dark:hover{
+  color:#fff;
+  background-color: #333;
+  border-color: #222;
+}
+
+
+
 .btn-primary {
   color: #fff;
   background-color: #337ab7;

@@ -7,7 +7,7 @@ var Superslides, plugin = 'superslides';
 
 Superslides = function(el, options) {
   this.options = $.extend({
-    play: 10000,
+    play: 0,
     animation_speed: 1400,
     animation_easing: 'swing',
     animation: 'slide',

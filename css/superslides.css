@@ -2,8 +2,11 @@
   position: relative;
  
 }
+
+
 #slides .slides-container {
   display: none;
+  
 }
 #slides .scrollable {
   *zoom: 1;
@@ -12,6 +15,7 @@
   left: 0;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+  -moz-overflow-scrolling: touch;
   height: 100%;
 }
 #slides .scrollable:after {
@@ -46,6 +50,7 @@
   text-decoration:none;
 }
 
+ 
 
 
 
