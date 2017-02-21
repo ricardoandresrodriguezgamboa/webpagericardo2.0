@@ -3,7 +3,7 @@ $(function(){
           
   
 
-       var header = document.getElementById('header');
+        var header = document.getElementById('header');
         
         var headroom  = new Headroom(header);
         
@@ -11,7 +11,6 @@ $(function(){
          
     
 
-    
  /*(function($) {
      
         $.fn.visible = function(partial) {
@@ -76,7 +75,7 @@ $(document).ready(function () {
   
   });
   
-
+ 
 
     $(document).on("scroll", onScroll);
     
