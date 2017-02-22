@@ -514,8 +514,8 @@ transform: translateY(-100%);
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-.header-home{/*background:red;*/ margin-top:80px; font-size:28px;}
-   .capitalize{font-size:32px;}
+.header-home{/*background:red;*/ margin-top:80px; font-size:25px;}
+   .capitalize{font-size:30px;}
 }
 
 /* Portrait phones and smaller */
